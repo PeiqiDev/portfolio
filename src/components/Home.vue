@@ -10,14 +10,16 @@
       data-aos-duration="1000"
     >
       <div class="row align-items-center">
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
+        <div
+          class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center flip-horizontal"
+        >
           <img :src="picture" />
         </div>
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >hello there!</span
+            >你好!</span
           >
           <div>
             <p v-html="description"></p>
@@ -81,7 +83,7 @@ export default {
       linkedin: info.links.linkedin,
       github: info.links.github,
       angellist: info.links.angellist,
-      resume: info.links.resume
+      resume: info.links.resume,
     };
   },
   methods: {
@@ -159,5 +161,8 @@ p {
   font-weight: 400;
 }
 
+.flip-horizontal {
+  transform: scaleX(-1);
+}
 /* LEAVES */
 </style>

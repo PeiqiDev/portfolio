@@ -1,7 +1,7 @@
 let info = {
-  name: "Hrishikesh Paul",
-  logo_name: "paul",
-  flat_picture: require("./src/assets/potrait.jpg"),
+  name: "Peiqi Li",
+  logo_name: "Peiqi",
+  flat_picture: require("./src/assets/avatar.svg"),
   config: {
     use_cookies: true,
     navbar: {
@@ -9,13 +9,13 @@ let info = {
     }
   },
   description:
-    "A second year Computer Science graduate student at Indiana University Bloomington with an interest in Software Development, UX Design and Artificial Intelligence - and seeking exciting opportunities related to the same.<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I would bring to table a wide range of software skills, ranging from design and development to writing scripts for intelligent agents. I believe that the skills that I have attained from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
+    "我是佩奇。<br><br>毕业于诺丁汉人机交互专业，对用coding解决生活问题有浓厚的兴趣。<br>目前就职于国网数科公司，研究电网供需平衡算法。",
   links: {
-    linkedin: "https://www.linkedin.com/in/hrishikeshpaul/",
-    github: "https://github.com/hrishikeshpaul",
-    angellist: "https://angel.co/u/hrishikesh-paul",
-    resume:
-      "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
+    // linkedin: "https://www.linkedin.com/in/hrishikeshpaul/",
+    github: "https://github.com/PeiqiDev",
+    // angellist: "https://angel.co/u/hrishikesh-paul",
+    // resume:
+      // "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
   },
   education: [
     {
